@@ -1,0 +1,15 @@
+.footernav{
+    margin-top: 30px;
+
+}
+.footernav > li {
+
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+
+.footernav > li > a{
+    text-decoration: none;
+    color: #92b1e1;
+}

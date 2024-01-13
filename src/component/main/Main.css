@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* 
+.data{
+    width: auto;
+    height: auto;
+    background-color: blue;
+
+    color:white;
+}
+
+#data1{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: auto;
+} */
+
+/* card css apply here */
+
+.greenbc{
+    background-color: #03235C;
+    padding-bottom: 20px;
+margin-bottom: 20px;
+position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.overridediv{
+    position: absolute;
+       bottom:0;
+       left: 0;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    background-color:#03235C;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: 1s;
+
+}
+
+.greenbc:hover .overridediv{
+
+    transform: translateY(0%);
+
+}
+
+
+/* our process page css  */
+
+.custprocess{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custprocess >h4 {
+    margin: 30px 0px;
+}
+.custprocess >p {
+    text-align: center;
+    padding: 0px 50px;
+}
+.overlay{
+    
+ width: 100%;
+  height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+position: absolute;
+top: 0;
+display: flex;
+text-align: center;
+justify-content: center;
+
+}
+
+/* // text typing  */
+.typewritermain{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .typewrite{
+     font-size: 15px;
+    }
+  }
